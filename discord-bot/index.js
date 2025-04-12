@@ -1,7 +1,7 @@
 const { Client, GatewayIntentBits } = require('discord.js');
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] });
 
-const DISCORD_TOKEN = 'MTM2MDU0NzUzMjg3ODUxMjE5Mw.GdHj6C.h3eTGIfM4vFqo6Q5GLBMV2CgjDT5fmQ-XVOo5M'; // Ganti dengan token bot yang didapat dari Discord Developer Portal
+const DISCORD_TOKEN = 'Discord-Token'; // Ganti dengan token bot yang didapat dari Discord Developer Portal
 
 client.once('ready', () => {
     console.log('Bot is online!');
